@@ -1,0 +1,42 @@
+.headhunt {
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    background-color: #4417E2;
+    clip-path: polygon(0 0, 48% 0, 65% 100%, 0% 100%);
+}
+
+.title {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #fff;
+    max-width: 260px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #F7CF28;
+    width: 200px;
+    height: 55px;
+    border-radius: 55px;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content {
+    position: relative;
+}
+
+.imgBox {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 30%;
+}

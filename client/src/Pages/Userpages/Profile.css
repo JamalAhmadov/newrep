@@ -1,0 +1,15 @@
+.profile-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    overflow-y: auto;
+  }
+  

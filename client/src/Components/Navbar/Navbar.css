@@ -1,0 +1,58 @@
+.logo {
+    width: 100px;
+    height: 42px;
+
+}
+
+.logodiv {
+    padding: 20px 40px 20px 0 !important;
+    border-right: 1px solid rgba(128, 128, 128, 0.384);
+}
+
+.navlink {
+    align-items: center;
+}
+
+.navlinkmenu {
+    display: flex;
+    align-items: center;
+}
+
+.navv {
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .12);
+}
+.btnvac{
+    margin-right: 40px;
+}
+
+@media screen and (min-width:0px) and (max-width:1024px) {
+    .navlinkmenu {
+        display: none;
+    }
+
+    .mobilenav {
+        overflow: inherit !important;
+    }
+
+    .logodiv {
+        padding: 20px 10px 20px 10px !important;
+        border: 0;
+    }
+
+    .navv {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+
+    }
+    .btnvac{
+        margin-right: 10px;
+    }
+    
+}
+
+@media screen and (min-width:0px) and (max-width:560px) {
+    .btnvac{
+ display: none;       
+    }
+    
+}

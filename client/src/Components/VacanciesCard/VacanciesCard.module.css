@@ -1,0 +1,43 @@
+.card{
+    padding: 0 30px;
+    background-color: #fff;
+    height: 123px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.spns{
+    display: flex;
+    gap: 20px;
+}
+
+.jobtitle{
+    font-size: 20px;
+}
+.cardleft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.premiumbtn{
+    background-color: #aaf674;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.detailbtn{
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+
